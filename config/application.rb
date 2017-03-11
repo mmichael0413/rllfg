@@ -14,5 +14,7 @@ module Rllfg
 
     config.autoload_paths += ["#{config.root}/lib"]
     config.eager_load_paths += ["#{config.root}/lib"]
+
+    config.react.camelize_props = true
   end
 end
